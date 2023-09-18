@@ -1,6 +1,7 @@
-name: dev-YAML
-environment: develop
-enabled: false
-servers:
-  - www.abc.dev.com
-  - www.xyz.dev.com
+system:
+  name: dev-YAML
+  environment: develop
+  enabled: false
+  servers:
+    - www.abc.dev.com
+    - www.xyz.dev.com

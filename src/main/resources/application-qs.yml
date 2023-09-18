@@ -1,6 +1,7 @@
-name: test-YAML
-environment: testing
-enabled: false
-servers:
-  - www.abc.qs.com
-  - www.xyz.qs.com
+system:
+  name: test-YAML
+  environment: testing
+  enabled: false
+  servers:
+    - www.abc.qs.com
+    - www.xyz.qs.com

@@ -1,15 +1,14 @@
 package com.example.democonfig.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Configuration
-@EnableConfigurationProperties
-@ConfigurationProperties
+//@Configuration
+// Das muss nicht so geschreiben werden ist aber einfacher.
+// Ansonsten muss eine Bean in ConfigurationModule erzeugt werden.
+@ConfigurationProperties(prefix = "system")
 public class YAMLConfig {
 
     private String name;
