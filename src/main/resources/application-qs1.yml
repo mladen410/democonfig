@@ -1,0 +1,10 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: test
+name: test2-YAML
+environment: testing2
+enabled: false
+servers:
+  - www.abc.abc.com
+  - www.xyz.abc.com
