@@ -1,0 +1,10 @@
+system:
+  name: default-YAML
+  environment: default
+  enabled: false
+  servers:
+    - www.abc.default.com
+    - www.xyz.default.com
+audio:
+  title: "default"
+  url: "www.default.com"

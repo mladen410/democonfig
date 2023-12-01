@@ -12,4 +12,9 @@ public class ConfigurationModule {
     public YAMLConfig getYAMLConfig(){
         return new YAMLConfig();
     }
+
+    @Bean
+    public YAMLAudioConfig getYamlAudioConfig(){
+        return new YAMLAudioConfig();
+    }
 }
